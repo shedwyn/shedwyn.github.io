@@ -1,4 +1,4 @@
-{% load staticfiles %}
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,13 +6,13 @@
 <head>
     <meta charset="utf-8">
     <title>Erin Fough's Page</title>
-    <link rel="stylesheet" type="text/css" href={% static 'mypage/projects.css' %}>
+    <link rel="stylesheet" type="text/css" href="projects.css">
 </head>
 <body>
   <!-- nav -->
   <nav>
-    <a href={% url 'index_page' %}>Home</a>
-    <a href={% url 'bio' %}>Bio</a>
+    <a href="index.html">Home</a>
+    <a href="bio.html">Bio</a>
     <a href="">Links <em>(forthcoming)</em></a>
     <a href="">Random <em>(forthcoming)</em></a>
   </nav>
@@ -21,7 +21,7 @@
     <h1>
       Under Construction
     </h1>
-    <img alt="" src={% static 'mypage/Bernice.jpg'%}>
+    <img alt="" src="Bernice.jpg">
     <h2>
       Please visit me on <a href="https://www.linkedin.com/in/erin-l-fough">LinkedIn</a>
       or visit my code repositories on <b>Github</b> below:
