@@ -1,4 +1,3 @@
-{% load staticfiles %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,13 +5,13 @@
 <head>
     <meta charset="utf-8">
     <title>Erin Fough's Page</title>
-    <link rel="stylesheet" type="text/css" href={% static 'mypage/index.css' %}>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
   <!-- nav -->
   <nav>
-    <a href={% url 'bio' %}>Bio</a>
-    <a href={% url 'projects' %}>Projects</a>
+    <a href="bio.html">Bio</a>
+    <a href="projects.html">Projects</a>
     <a href="">Links <em>(forthcoming)</em></a>
     <a href="">Random <em>(forthcoming)</em></a>
   </nav>
@@ -21,7 +20,7 @@
   <div>
     <!-- barleft -->
     <div class="sidebar-l">
-      <img id="headshot" alt="" src={% static 'mypage/argoNme.jpg'%}>
+      <img id="headshot" alt="" src="argoNme.jpg">
     </div>
     <!-- /barleft -->
     <!-- barright -->
