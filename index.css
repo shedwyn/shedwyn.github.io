@@ -20,11 +20,14 @@ body div{
   flex:4;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 1.75em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-style: oblique;
+}
+h3 {
+  font-size: 1em;
 }
 nav{
   flex:1;
@@ -45,13 +48,17 @@ img{
   border-style: solid;
   border-width: thin;
 }
+span{
+  font-weight: bold;
+  color: navy;
+}
 .sidebar-r{
   display:flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;;
   align-items: flex-start;
   align-self: flex-end;
-  flex: 1;
+  flex: 2;
   margin: 1em;
 }
 .sidebar-l{
@@ -66,18 +73,11 @@ img{
   max-width:30%;
   border-style: none;
 }
-#l-1{
-  margin-left: 3em;
+#my-mess{
+  font-size: 1.2em;
+  font-style: italic;
+  color: indigo;
 }
-#l-2{
-  margin-left: 5em;
-}
-#l-3{
-  margin-left: 4em;
-}
-#l-4{
-  margin-left: 2em;
-}
-#l-5{
-  margin-left: 3em;
+#aside{
+  font-style: italic;
 }
